@@ -1,0 +1,27 @@
+{
+  "name": "webpack-2-basics",
+  "version": "1.0.0",
+  "description": "This repository holds the source code of my Webpack 2 Basics Series on YouTube. Make sure to watch the Videos on YouTube to understand how to use that code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server",
+    "build:prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolarisTLX/Webpack-2-Basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PolarisTLX/Webpack-2-Basics/issues"
+  },
+  "homepage": "https://github.com/PolarisTLX/Webpack-2-Basics#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.7.1",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
